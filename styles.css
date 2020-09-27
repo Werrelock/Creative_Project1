@@ -1,0 +1,250 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bookman Old Style";
+}
+
+body {
+  background-color: #EEEEEE !important;
+}
+
+h2 {
+  text-align: center;
+}
+
+.search_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header {
+  text-align: center;
+  color: saddlebrown;
+  margin: 20px 0 30px 30px;
+}
+
+.search {
+  text-align: center;
+  float: right;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+#featured_title {
+  color: forestgreen;
+}
+
+.featured_flex {
+  margin: 0 0 40px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.featured {
+  height: 222px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  border: solid;
+  border-width: 3px;
+  border-color: forestgreen;
+}
+
+#new_title {
+  color: orange;
+}
+
+.new_flex {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.new_container {
+  margin-bottom: 10px;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  border: solid;
+  border-width: 3px;
+  border-color: orange;
+}
+
+.new_picture {
+  margin: 15px;
+  height: 70px;
+  width: auto;
+}
+
+.books_flex {
+  margin: 0 0 45px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.book_container {
+  margin: 0 5% 30px 5%;
+  height: 222px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  border: solid;
+  border-width: 3px;
+}
+
+.book {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.book_picture {
+  margin: 15px;
+  height: 100px;
+  width: auto;
+}
+
+.add_cart {
+  border: solid;
+  border-width: 3px;
+  border-color: blue;
+}
+
+.book_info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.book_name {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.author {
+  text-align: center;
+  width: auto;
+  padding: 5px;
+}
+
+.price {
+  text-align: center;
+  padding: 5px;
+}
+
+p {
+  text-align: right;
+  margin-right: 30px;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.checkout_flex {
+  display: flex;
+}
+
+.checkout {
+  font-weight: bold;
+  background-color: orange;
+  margin: 15px auto 60px auto;
+  padding: 15px
+}
+
+.support_header {
+  margin-left: 0;
+}
+
+.support_flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.support_container {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.support {
+  color: whitesmoke;
+  background-color: teal;
+  padding: 20px;
+}
+
+.review_container {
+  background-color: teal;
+  margin: 20px;
+  padding: 15px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.review {
+  background-color: whitesmoke;
+  border: solid;
+  border-width: 3px;
+  border-color: black;
+  height: 225px;
+  width: 300px;
+}
+
+.faq_container {
+  margin-bottom: 35px;
+  clear: both;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#faq_title {
+  color: purple;
+  margin: 10px;
+}
+
+.faq {
+  font-weight: 550;
+  padding: 15px;
+  margin: 10px;
+  border: solid;
+  border-width: 5px;
+  border-color: darkorchid;
+}
+
+.fake_link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.footer_container {
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #EEEEEE !important;
+  color: black;
+  border: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: black;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+}
